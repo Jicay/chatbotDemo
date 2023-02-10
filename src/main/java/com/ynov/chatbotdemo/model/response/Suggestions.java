@@ -7,8 +7,6 @@ import lombok.Data;
 
 @Data
 @JsonInclude(Include.NON_NULL)
-public class WebhookResponse {
-    private List<Message> fulfillmentMessages;
-
-    private String fulfillmentText;
+public class Suggestions {
+    private List<Suggestion> suggestions;
 }
